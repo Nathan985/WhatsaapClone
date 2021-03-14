@@ -1,4 +1,6 @@
 import React from 'react';
+import ComponentListContact from '../ComponentListContact';
+import DefaultTemplate from '../DefaultTemplate';
 
 import { 
   Container, 
@@ -13,7 +15,9 @@ import {
   ContainerSeach,
   ContainerInput,
   IconInput,
-  InputSearch
+  InputSearch,
+  ContainerListContacts,
+  ContainerApp
 } from './styles';
 
 function ModalApp() {
@@ -35,7 +39,84 @@ function ModalApp() {
                 <InputSearch />
               </ContainerInput>
             </ContainerSeach>
+            <ContainerListContacts>
+              <ComponentListContact 
+                imageUrl="https://avatars.githubusercontent.com/u/56900147?s=460&u=01352869a1d243e392d8e063d3c88f7f6afbe2d4&v=4"
+                Title="Nathan"
+                LastMess="Hello World"
+                DateMess="09:20"  
+              />
+              <ComponentListContact 
+                imageUrl="https://avatars.githubusercontent.com/u/56900147?s=460&u=01352869a1d243e392d8e063d3c88f7f6afbe2d4&v=4"
+                Title="Nathan"
+                LastMess="Hello World"
+                DateMess="09:20"  
+              />
+              <ComponentListContact 
+                imageUrl="https://avatars.githubusercontent.com/u/56900147?s=460&u=01352869a1d243e392d8e063d3c88f7f6afbe2d4&v=4"
+                Title="Nathan"
+                LastMess="Hello World"
+                DateMess="09:20"  
+              />
+              <ComponentListContact 
+                imageUrl="https://avatars.githubusercontent.com/u/56900147?s=460&u=01352869a1d243e392d8e063d3c88f7f6afbe2d4&v=4"
+                Title="Nathan"
+                LastMess="Hello World"
+                DateMess="09:20"  
+              />
+              <ComponentListContact 
+                imageUrl="https://avatars.githubusercontent.com/u/56900147?s=460&u=01352869a1d243e392d8e063d3c88f7f6afbe2d4&v=4"
+                Title="Nathan"
+                LastMess="Hello World"
+                DateMess="09:20"  
+              />
+              <ComponentListContact 
+                imageUrl="https://avatars.githubusercontent.com/u/56900147?s=460&u=01352869a1d243e392d8e063d3c88f7f6afbe2d4&v=4"
+                Title="Nathan"
+                LastMess="Hello World"
+                DateMess="09:20"  
+              />
+              <ComponentListContact 
+                imageUrl="https://avatars.githubusercontent.com/u/56900147?s=460&u=01352869a1d243e392d8e063d3c88f7f6afbe2d4&v=4"
+                Title="Nathan"
+                LastMess="Hello World"
+                DateMess="09:20"  
+              />
+              <ComponentListContact 
+                imageUrl="https://avatars.githubusercontent.com/u/56900147?s=460&u=01352869a1d243e392d8e063d3c88f7f6afbe2d4&v=4"
+                Title="Nathan"
+                LastMess="Hello World"
+                DateMess="09:20"  
+              />
+              <ComponentListContact 
+                imageUrl="https://avatars.githubusercontent.com/u/56900147?s=460&u=01352869a1d243e392d8e063d3c88f7f6afbe2d4&v=4"
+                Title="Nathan"
+                LastMess="Hello World"
+                DateMess="09:20"  
+              />
+              <ComponentListContact 
+                imageUrl="https://avatars.githubusercontent.com/u/56900147?s=460&u=01352869a1d243e392d8e063d3c88f7f6afbe2d4&v=4"
+                Title="Nathan"
+                LastMess="Hello World"
+                DateMess="09:20"  
+              />
+              <ComponentListContact 
+                imageUrl="https://avatars.githubusercontent.com/u/56900147?s=460&u=01352869a1d243e392d8e063d3c88f7f6afbe2d4&v=4"
+                Title="Nathan"
+                LastMess="Hello World"
+                DateMess="09:20"  
+              />
+              <ComponentListContact 
+                imageUrl="https://avatars.githubusercontent.com/u/56900147?s=460&u=01352869a1d243e392d8e063d3c88f7f6afbe2d4&v=4"
+                Title="Nathan"
+                LastMess="Hello World"
+                DateMess="09:20"  
+              />
+            </ContainerListContacts>
           </ContainerContacts>
+          <ContainerApp>
+              <DefaultTemplate />
+          </ContainerApp>
         </ContainerModal>
     </Container>
   );

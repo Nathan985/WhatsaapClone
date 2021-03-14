@@ -33,5 +33,7 @@ export default createGlobalStyle`
         --received: #FFFFFF;
         --icons: #919191;
         --header: #EDEDED;
+        --gray: #929292;
+        --template: #F8F9FA;
     }
 `;
