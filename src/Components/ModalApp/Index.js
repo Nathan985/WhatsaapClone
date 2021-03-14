@@ -1,6 +1,7 @@
 import React from 'react';
 import ComponentListContact from '../ComponentListContact';
 import DefaultTemplate from '../DefaultTemplate';
+import WindowChat from '../WindowChat';
 
 import { 
   Container, 
@@ -115,7 +116,8 @@ function ModalApp() {
             </ContainerListContacts>
           </ContainerContacts>
           <ContainerApp>
-              <DefaultTemplate />
+              {/* <DefaultTemplate /> */}
+              <WindowChat />
           </ContainerApp>
         </ContainerModal>
     </Container>

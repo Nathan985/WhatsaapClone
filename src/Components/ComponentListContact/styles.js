@@ -18,8 +18,8 @@ export const Context = styled.div`
 
 export const ImageProfile = styled.img`
     display: flex;
-    width: 52px;
-    height: 52px;
+    width: 42px;
+    height: 42px;
     border-radius: 50%;
     margin-right: 15px;
 `;
@@ -32,13 +32,13 @@ export const ContainerInfoContact = styled.div`
 `;
 
 export const TitleContact = styled.div`
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-weight: bold;
-    margin-bottom: 5px;
+    margin-bottom: 1px;
 `;
 
 export const LastMessage = styled.div`
-    font-size: 0.90rem;
+    font-size: 0.85rem;
     overflow: hidden;
     white-space: nowrap;
     color:  var(--gray);
@@ -48,7 +48,7 @@ export const LastMessage = styled.div`
 export const Datelast = styled.div`
     display: flex;
     color:  var(--gray);
-    font-size: 0.90rem;
+    font-size: 0.85rem;
     flex: 1;
     justify-content: flex-end;
 `;
