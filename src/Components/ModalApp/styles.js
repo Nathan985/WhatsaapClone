@@ -25,7 +25,7 @@ export const ContainerContacts = styled.div`
   display: flex;
   flex-direction: column;
   width: max(300px, 30%);
-  height: 60px;
+  height: 100%;
   background: var(--header);
   border-right: 1px solid rgba(0,0,0,0.3);
 `;
@@ -67,6 +67,7 @@ export const ContainerSeach = styled.div`
   padding: 7px 15px;
   align-items: center;
   justify-content: center;
+  border-bottom: 1px solid rgba(0,0,0,0.3);
 `;
 
 export const ContainerInput = styled.div`
@@ -90,4 +91,33 @@ export const InputSearch = styled.input`
   flex: 1;
   font-size: 1rem;
   padding: 5px;
+`;
+
+export const ContainerListContacts = styled.div`
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  background: var(--received);
+  overflow-y: auto;
+  max-height: 100%;
+  &::-webkit-scrollbar-track {
+    background-color: #F4F4F4;
+  }
+  &::-webkit-scrollbar {
+      width: 6px;
+      background: #F4F4F4;
+  }
+  &::-webkit-scrollbar-thumb {
+      background: #dad7d7;
+  }
+`;
+
+export const ContainerApp = styled.div`
+  display: flex;
+  flex: 1;
+  background: var(--template);
+  flex-direction:  column;
+  width: max(340px, 100%);
 `;
